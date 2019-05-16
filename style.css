@@ -1,33 +1,51 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
 @import url('https://fonts.googleapis.com/css?family=Stylish');
+
 
 html, body{
 	min-height:100%;
 }
 body{
-	background: pink;
+	background: #9c9c9c;
+	background-attachment: fixed;
 }
+
+a{
+	color:rgba(255,0,0,.75);
+
+}
+
 
 h1{
 	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #EA899A;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.25), -1px -1px 1px rgba(0,0,1,1);
 }
 }
 
 h2{
 	
-	font-family: 'Stylish', sans-serif;
-	
+	font-family: 'Raleway', sans-serif;
+	border-top:4px solid white;
+	padding-top:2rem;
+	font-weight: 900;
+	color: #a33;
 
+
+}
+
+h3,h4,h5,h6{
+	font-family: 'Stylish', serif;	
+	font-weight: 700;
+}
+
+img {
+	border:6px solid pink;
 }
 
 #menu{
 	position: fixed;
 	bottom:2rem;
 	right:2.5rem;
-}
-
-.bg-azul{
-	background:rgba(255,110,174);
-}
